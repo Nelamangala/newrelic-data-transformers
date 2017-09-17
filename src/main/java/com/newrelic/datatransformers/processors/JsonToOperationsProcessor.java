@@ -43,7 +43,7 @@ public class JsonToOperationsProcessor implements ExtractOperations{
 				// Remove if operation was previously specified & insert again so that the order of operations is maintained.
 				dataOperations.remove(operation);
 			}
-			dataOperations.put(operation, transform.getColumn());
+			dataOperations.put(operation, transform.getColumn().toLowerCase());
 		}
 		
 		return dataOperations;

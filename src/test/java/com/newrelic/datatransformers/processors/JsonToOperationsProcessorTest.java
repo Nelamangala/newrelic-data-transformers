@@ -38,7 +38,7 @@ public class JsonToOperationsProcessorTest {
 		
 		Assert.assertNotNull(extractOperations);
 		Assert.assertTrue(extractOperations.size() == 3);
-		Assert.assertThat(extractOperations.get(Operation.HST_TO_UNIX), is("TimeSunSet"));
+		Assert.assertThat(extractOperations.get(Operation.HST_TO_UNIX), is("timesunset"));
 	}
 	
 	@Test
