@@ -24,7 +24,7 @@ public enum Operation {
 	 * @return
 	 * 		NULL if matching enum for given string is not found. Operation value if match found.
 	 */
-	public Operation find(String keyOperation) {
+	public static Operation find(String keyOperation) {
 		Operation searchResult = null;
 		
 		for(Operation op : Operation.values()) {
