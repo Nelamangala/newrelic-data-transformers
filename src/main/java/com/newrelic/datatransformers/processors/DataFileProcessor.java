@@ -127,7 +127,7 @@ public class DataFileProcessor {
 
 	}
 	
-	private Map<String, Integer> getColumnHeadersAndPositions(String line) {
+	protected Map<String, Integer> getColumnHeadersAndPositions(String line) {
 		Map<String, Integer> headerPositions = new HashMap<>();
 		if(line == null || line.isEmpty()) {
 			return headerPositions;
