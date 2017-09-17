@@ -3,7 +3,7 @@
   "transforms": [
     {
       "operation": "hst-to-unix",
-      "column": "TimeSunRise"
+      "column": "RecordedDate,TimeSunRise"
     },
     {
       "operation": "slugify",
@@ -15,7 +15,7 @@
     },
     {
       "operation": "hst-to-unix",
-      "column": "TimeSunSet"
+      "column": "RecordedDate,timesunSet"
     }
   ]
 }
